@@ -122,7 +122,7 @@ def add_bg_from_local(image_file):
     """,
     unsafe_allow_html=True
     )
-add_bg_from_local(r"Imagenes\background5.png")
+add_bg_from_local(r"imagenes\background5.png")
 
 # Esto sirve para quitar la advertencia de algunos gráficos
 st.set_option('deprecation.showPyplotGlobalUse', False)
