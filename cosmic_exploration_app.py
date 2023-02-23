@@ -762,7 +762,7 @@ if menu == "Space Missions":
         df_country_missionstatus = df_missions[['Country', 'MissionStatus']]
         ct = pd.crosstab(df_country_missionstatus['Country'], df_country_missionstatus['MissionStatus'])
 
-        st.image('imagenes\contingencia1.png')
+        st.image('imagenes/contingencia1.png')
         st.code("chi2, pval, dof, expected = chi2_contingency(ct)")
            
         # muestra el resultado
@@ -784,7 +784,7 @@ if menu == "Space Missions":
         df_country_missionstatus = df_missions[['Rocket', 'MissionStatus']]
         ct = pd.crosstab(df_country_missionstatus['Rocket'], df_country_missionstatus['MissionStatus'])
 
-        st.image('imagenes\contingencia2.png')
+        st.image('imagenes/contingencia2.png')
         st.code("chi2, pval, dof, expected = chi2_contingency(ct)")
 
 
