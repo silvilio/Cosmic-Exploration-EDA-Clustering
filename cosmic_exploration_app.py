@@ -443,7 +443,7 @@ if menu == "Meteorites":
 
     st.subheader("¿Dónde han caído todos los meteoritos registrados?")
     # Leemos el mapa de
-    path_to_html = "./mapa_mundo.html"
+    path_to_html = "./mapa_espana.html"
     # Read file and keep in variable
     with open(path_to_html,'r') as f: 
         html_data = f.read()
