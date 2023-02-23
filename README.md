@@ -25,12 +25,12 @@ We hope that the results of this analysis will help to better understand the fac
 ## WEB APP STREAMLIT: 
 In the following links you can take a look at the app created for this project in Streamlit.
 
-### [SEE THE APP](https://silvilio-titanic-silvilio-titanic-app-251nwk.streamlit.app/)
-### [SEE THE APP CODE](https://github.com/silvilio/titanic/blob/main/silvilio_titanic_app.py)
+### [SEE THE APP](https://silvilio-cosmic-exploration-eda-c-cosmic-exploration-app-pltlc4.streamlit.app/)
+### [SEE THE APP CODE](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/cosmic_exploration_app.py)
 
 Here you can see a preview of what you can find inside the app.
 
-![](https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/app.gif)
+![](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/cosmic.gif)
 
 ---
 
@@ -97,7 +97,7 @@ En los siguientes enlaces puedes echar un vistazo a la app creada para este proy
 
 Aquí puedes ver un adelanto de lo que te puedes encontrar dentro de la app.
 
-![](https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/app.gif)
+![](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/cosmic.gif)
 
 ---
 
