@@ -67,6 +67,10 @@ In addition, by using the silhouette metric to assess the quality of the cluster
 
 <img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/outputKmeans.png" alt="Classification" style="width: 90%; height: auto;" />
 
+<img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/Capturas.PNG" alt="Classification" style="width: 90%; height: auto;" />
+
+<img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/carrera.png" alt="Classification" style="width: 90%; height: auto;" />
+
 ---
 
 ### [DOWNLOAD DATASET](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/tree/main/datasets%20proyecto%20final)
@@ -128,6 +132,9 @@ Además, al usar la métrica de silhouette para evaluar la calidad de los cluste
 
 <img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/outputKmeans.png" alt="Classification" style="width: 90%; height: auto;" />
 
+<img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/Capturas.PNG" alt="Classification" style="width: 90%; height: auto;" />
+
+<img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/carrera.png" alt="Classification" style="width: 90%; height: auto;" />
 ---
 
 ### [DESCARGA DATASETS](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/tree/main/datasets%20proyecto%20final)
