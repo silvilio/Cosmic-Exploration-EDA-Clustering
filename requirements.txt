@@ -11,4 +11,3 @@ scipy==1.5.4
 seaborn==0.12.2
 streamlit==1.17.0
 streamlit_option_menu==0.3.2
-tkinter==8.6
