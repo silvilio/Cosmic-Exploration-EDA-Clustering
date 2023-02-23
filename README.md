@@ -13,11 +13,32 @@
 # English  
 
 
-The main objective of this analysis will be to answer various questions related to passenger survival, such as: What factors influence the passenger survival rate? How many passengers were there according to their classes? Were there significant differences between the survival rate of men and women?
+### "Our planet may be hit by a meteorite in the next few years. Humanity's existence is in danger".
 
-Based on the results obtained, we will make a prediction of passenger survival based on the data we have. We will use a logistic regression model to estimate survival probabilities and classify passengers into two groups: survivors and non-survivors.
+What if this headline is more real than we think? Can humanity be saved with data?
 
-We hope that the results of this analysis will help to better understand the factors that influenced the Titanic's passenger survival rate and contributed to the rise of its history.
+<br>
+In this project...
+<br>
+ 
+We will analyse a dataset on meteorites, where we will solve questions such as:
+- What is the average mass of the meteorites we have recorded?
+- In which years have the most meteorites been recorded?
+- Where have the meteors fallen and in which hemisphere have they been recorded the most?
+ 
+
+We will analyse a dataset on exoplanets, where we will solve questions such as: What is the average mass of the meteorites we have recorded?
+- In which years were the most exoplanets discovered? When was the first exoplanet discovered?
+- What is the most effective method for finding them?
+- Which is the most important discovery centre?
+ 
+
+We will analyse a dataset of all space missions, where we will answer questions such as: What percentage of space missions have been successful in finding exoplanets?
+- What percentage of space missions have been successful and what is the failure rate?
+- Which countries have sent the most space missions?
+- Which company has the best success rate?
+
+The aim of this project will be to analyse these three datasets to study the danger of meteorite impact and to find patterns of behaviour. On the other hand, we will analyse exoplanets that could host us in the future. And we will finish by analysing space missions to find the parameters that have been most successful in the missions.
 
 
 --- 
@@ -35,25 +56,20 @@ Here you can see a preview of what you can find inside the app.
 ---
 
 ## MACHINE LEARNING
-In this project, a model has been created to predict the survival of Titanic passengers according to gender, class, age, ticket price and boarding port. In addition, within the app you can enter the input data manually by creating an invented passenger. The model will tell you the percentage that you have to survive according to the values entered in the independent variables.
+In this project, a clustering method has been created that is used to divide a set of data into homogeneous groups or clusters. The main objective of the model is to find the centres of the clusters, called centroids, which represent the centre of gravity of the data in that cluster.
 
-### Model : Logistic Regression (Accuracy 0.81)
-A logistic regression model has been used because it is a binary classification problem, that is, predicting whether a passenger survived or not. Logistic regression is a classification model that is based on linear regression and uses a logistic function to estimate the probability that an observation falls into one of two categories.
 
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion.PNG" alt="Classification" style="width: 30%; height: auto;" />
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion1.PNG" alt="Classification" style="width: 30%; height: auto;" />
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion2.PNG" alt="Classification" style="width: 30%; height: auto;" />
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion3.PNG" alt="Classification" style="width: 30%; height: auto;" />
+### Model : K-Means 
+In the context of astronomy, the use of the K-means model to analyse exoplanet data is very useful for classifying similar planets and grouping them into clusters. This allows astronomers to have a better understanding of the distribution of planets and their common features, which in turn can provide valuable information about how planetary systems form and evolve.
 
----
+In addition, by using the silhouette metric to assess the quality of the clusters, the cohesion and separation between the groups can be determined. If the clusters are cohesive and well separated, then the classification is considered good. The silhouette metric is useful for determining the optimal number of clusters, which is an important parameter of the K-means model.
 
-### [OPEN IN COLAB](https://colab.research.google.com/drive/1OCJjwP0mILITYCQ_h43MJkIQmHwjB3NC?usp=sharing)
-In this link you can directly access the main file of Jupyter Notebook in Google Colab.
-The difference of doing it through here is being able to correctly display the interactive graphs.
+
+<img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/outputKmeans.png" alt="Classification" style="width: 90%; height: auto;" />
 
 ---
 
-### [DOWNLOAD DATASET](https://github.com/silvilio/titanic/blob/main/titanic.csv)
+### [DOWNLOAD DATASET](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/tree/main/datasets%20proyecto%20final)
 Here you can download the dataset used for the project.
 
 ---
@@ -61,7 +77,7 @@ Here you can download the dataset used for the project.
 
 # Spanish
 
-"Nuestro planeta puede ser impactado por un meteorito en los próximos años. La existencia de la humanidad está en peligro"
+### "Nuestro planeta puede ser impactado por un meteorito en los próximos años. La existencia de la humanidad está en peligro"
 
 ¿Y si este titular es más real de lo que pensamos? ¿Se puede salvar a la humanidad con datos?
 
@@ -102,24 +118,17 @@ Aquí puedes ver un adelanto de lo que te puedes encontrar dentro de la app.
 ---
 
 ## MACHINE LEARNING
-En este proyecto se ha creado un modelo para predecir la supervivencia de los pasajeros del Titanic según el género, la clase, la edad, el precio del billete y el puerto de embarque. Además, dentro de la app se pueden introducir los datos de entrada manualmente creando un pasajero inventado. El modelo te dirá el porcentaje que tienes de sobrevivir según los valores introducidos en las variables independientes.
-
-### Model : Regresión Logística (Precisión de 0.81)
-Se ha usado un modelo de regresión logística porque se trata de un problema de clasificación binaria, es decir, predecir si un pasajero sobrevivió o no. La regresión logística es un modelo de clasificación que se basa en la regresión lineal y utiliza una funciónlogística para estimar la probabilidad de que una observación pertenezca a una de las dos categorías.
-
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion.PNG" alt="Classification" style="width: 30%; height: auto;" />
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion1.PNG" alt="Classification" style="width: 30%; height: auto;" />
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion2.PNG" alt="Classification" style="width: 30%; height: auto;" />
-<img src="https://github.com/silvilio/titanic/blob/main/Im%C3%A1genes/clasificacion3.PNG" alt="Classification" style="width: 30%; height: auto;" />
+En este proyecto se ha creado un método de clustering o agrupamiento que se utiliza para dividir un conjunto de datos en grupos homogéneos o clusters. El objetivo principal del modelo es encontrar los centros de los clusters, llamados centroides, que representan el centro de gravedad de los datos en ese cluster.
 
 
----
+### Model : K-Means 
+En el contexto de la astronomía, el uso del modelo K-means para analizar datos de exoplanetas es muy útil para clasificar planetas similares y agruparlos en clusters. Esto permite a los astrónomos tener una mejor comprensión de la distribución de los planetas y sus características comunes, lo que a su vez puede proporcionar información valiosa sobre cómo se forman y evolucionan los sistemas planetarios.
 
-### [ABRIR EN COLAB](https://colab.research.google.com/drive/1OCJjwP0mILITYCQ_h43MJkIQmHwjB3NC?usp=sharing)
-En este enlace podrás acceder directamente al archivo principal de Jupyter Notebook en Google Colab.
-La diferencia de hacerlo a través de aquí es el poder visualizar correctamente las gráficas interactivas.
+Además, al usar la métrica de silhouette para evaluar la calidad de los clusters, se puede determinar la cohesión y separación entre los grupos. Si los clusters son cohesivos y bien separados, entonces la clasificación es considerada como buena. La métrica de silhouette es útil para determinar el número óptimo de clusters, que es un parámetro importante del modelo K-means.
+
+<img src="https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/outputKmeans.png" alt="Classification" style="width: 90%; height: auto;" />
 
 ---
 
-### [DESCARGA DATASET](https://github.com/silvilio/titanic/blob/main/titanic.csv)
+### [DESCARGA DATASETS](https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/tree/main/datasets%20proyecto%20final)
 Aquí puedes descargar el dataset utilizado para el proyecto.
