@@ -306,7 +306,7 @@ if menu == "Meteorites":
     f, ax = plt.subplots(figsize=(10,7))
     f.set_facecolor((0, 0, 0, 0))  # color transparente
     cmap = "coolwarm"
-    img = imread(r"https://github.com/silvilio/Cosmic-Exploration-EDA-Clustering/blob/main/imagenes/pexels-pixabay-220201.jpg")
+    img = imread(r"imagenes/pexels-pixabay-220201.jpg")
     # Draw the heatmap with the mask and correct aspect ratio
     sns.heatmap(corr.iloc[0:5,0:5], mask=mask[0:5,0:5], cmap=cmap, vmax=1, center=0,
         square=True ,linewidths=.1, linecolor="black", cbar_kws={"shrink": 0.9},annot = True, annot_kws={"size": 10})
